@@ -1,0 +1,34 @@
+// app global css in SCSS form
+
+@font-face {
+    font-family: philosopher-bold;
+    src: url('../assets/philosopher/Philosopher-Bold.ttf');
+}
+@font-face {
+    font-family: philosopher-bold-italic;
+    src: url('../assets/philosopher/Philosopher-BoldItalic.ttf');
+}
+@font-face {
+    font-family: philosopher-italic;
+    src: url('../assets/philosopher/Philosopher-Italic.ttf');
+}
+@font-face {
+    font-family: philosopher;
+    src: url('../assets/philosopher/Philosopher-Regular.ttf');
+}
+body {
+    font-family: philosopher;
+}
+
+.overlay {
+    background: transparent !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.transparent {
+    background: transparent !important;
+}
+
+.n-100 {
+    margin-top: -70px !important;
+}
